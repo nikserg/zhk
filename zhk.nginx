@@ -1,7 +1,7 @@
 
 server {
     sendfile off;
-    set $host_path "/media/sf_src/zhk/web";
+    set $host_path "/media/sf_src/zhk";
     server_name zhk;
     root   $host_path;
     set $yii_bootstrap "index.php";
