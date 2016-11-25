@@ -15,7 +15,7 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
-    <link rel="shortcut icon" href="/image/favicon.png" />
+    <link rel="shortcut icon" href="/web/image/favicon.png" />
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
@@ -36,8 +36,8 @@ AppAsset::register($this);
                 </div>
                 <div class="h_dop">
                     <a href="#" class="h_lock"></a>
-                    <a href="#" class="h_soc"><img src="image/soc_1.png" alt=""></a>
-                    <a href="#" class="h_soc"><img src="image/soc_2.png" alt=""></a>
+                    <a href="#" class="h_soc"><img src="web/image/soc_1.png" alt=""></a>
+                    <a href="#" class="h_soc"><img src="web/image/soc_2.png" alt=""></a>
                     <a href="#" class="h_login gomod" modal="1">Вход</a>
                     <span class="h_raz">|</span>
                     <a href="#" class="h_login gomod" modal="2">Регистрация</a>
@@ -72,7 +72,7 @@ AppAsset::register($this);
 
                                     <div class="wmr3_col">
                                         <div class="wr3_hl">
-                                            <div class="cap4a"><img src="image/cap4a.jpg"></div>
+                                            <div class="cap4a"><img src="web/image/cap4a.jpg"></div>
                                             <input type="text" class="kapin">
                                         </div>
                                         <a href="#" class="kapref">Обновить</a>
@@ -132,7 +132,7 @@ AppAsset::register($this);
 
                                     <div class="wmr3_col">
                                         <div class="wr3_hl">
-                                            <div class="cap4a"><img src="image/cap4a.jpg"></div>
+                                            <div class="cap4a"><img src="web/image/cap4a.jpg"></div>
                                             <input type="text" class="kapin">
                                         </div>
                                         <a href="#" class="kapref">Обновить</a>
@@ -173,8 +173,8 @@ AppAsset::register($this);
                     <div class="tf_tit">подберите подходящую новостройку</div>
                     <div class="tf_search">
                         <input type="text" placeholder="Поиск">
-                        <button><img src="image/icon3.png" alt=""> 756 новостроек</button>
-                        <a href="#" class="tf_clear"><img src="image/icon4.png" alt="">Очистить фильтры</a>
+                        <button><img src="web/image/icon3.png" alt=""> 756 новостроек</button>
+                        <a href="#" class="tf_clear"><img src="web/image/icon4.png" alt="">Очистить фильтры</a>
                     </div>
                     <div class="tf_cont active">
 
@@ -301,7 +301,7 @@ AppAsset::register($this);
                     </div>
                 </div>
                 <div class="action_bar">
-                    <img src="image/icon6.png" alt="">
+                    <img src="web/image/icon6.png" alt="">
                     <strong>Спецпредложение:</strong>  Квартиры в Подмосковье от 45 000 руб./м2. Успей купить!  <a href="#">Подробнее...</a>
                 </div>
 
@@ -315,14 +315,14 @@ AppAsset::register($this);
                     <div class="info_block">
                         <div class="gen_tit">
                             <div class="gt_img">
-                                <img src="image/tit_icon1.png" alt="">
+                                <img src="web/image/tit_icon1.png" alt="">
                             </div>
                             <span>популярные новостройки</span>
                         </div>
                         <div class="novostroiki">
                             <div class="nov_item">
                                 <div class="ni_img">
-                                    <img src="image/novostroika1.jpg" alt="">
+                                    <img src="web/image/novostroika1.jpg" alt="">
                                     <div class="ni_btns">
                                         <a href="#" class="ni_fot"><span>22</span></a>
                                         <a href="#" class="ni_vid"><span>33</span></a>
@@ -351,7 +351,7 @@ AppAsset::register($this);
 
                             <div class="nov_item">
                                 <div class="ni_img">
-                                    <img src="image/novostroika2.jpg" alt="">
+                                    <img src="web/image/novostroika2.jpg" alt="">
                                     <div class="ni_btns">
                                         <a href="#" class="ni_fot"><span>22</span></a>
                                         <a href="#" class="ni_vid"><span>33</span></a>
@@ -380,7 +380,7 @@ AppAsset::register($this);
 
                             <div class="nov_item di_akc">
                                 <div class="ni_img">
-                                    <img src="image/novostroika3.jpg" alt="">
+                                    <img src="web/image/novostroika3.jpg" alt="">
                                     <div class="ni_btns">
                                         <a href="#" class="ni_fot"><span>22</span></a>
                                         <a href="#" class="ni_vid"><span>33</span></a>
@@ -408,7 +408,7 @@ AppAsset::register($this);
                             </div>
                             <div class="nov_item">
                                 <div class="ni_img">
-                                    <img src="image/novostroika4.jpg" alt="">
+                                    <img src="web/image/novostroika4.jpg" alt="">
                                     <div class="ni_btns">
                                         <a href="#" class="ni_fot"><span>22</span></a>
                                         <a href="#" class="ni_vid"><span>33</span></a>
@@ -443,7 +443,7 @@ AppAsset::register($this);
                         <div class="abb_wr">
                             <div class="gen_tit">
                                 <div class="gt_img">
-                                    <img src="image/tit_icon2.png" alt="">
+                                    <img src="web/image/tit_icon2.png" alt="">
                                 </div>
                                 <span>о проекте “сайт новостроек”</span>
                             </div>
@@ -457,14 +457,14 @@ AppAsset::register($this);
                     <div class="info_block pt30 lb">
                         <div class="gen_tit">
                             <div class="gt_img">
-                                <img src="image/tit_icon3.png" alt="">
+                                <img src="web/image/tit_icon3.png" alt="">
                             </div>
                             <span>акции в новостройках краснодара</span>
                         </div>
                         <div class="actions">
                             <div class="act_item di_skid">
                                 <div class="ni_img">
-                                    <img src="image/novostroika2.jpg" alt="">
+                                    <img src="web/image/novostroika2.jpg" alt="">
                                 </div>
                                 <div class="ni_cont">
                                     <a href="#" class="act_tit">Квартиры в готовых домах со скидкой 20%</a>
@@ -481,7 +481,7 @@ AppAsset::register($this);
                             </div>
                             <div class="act_item di_skid">
                                 <div class="ni_img">
-                                    <img src="image/novostroika3.jpg" alt="">
+                                    <img src="web/image/novostroika3.jpg" alt="">
                                 </div>
                                 <div class="ni_cont">
                                     <a href="#" class="act_tit">Квартиры в готовых домах со скидкой 20%</a>
@@ -498,7 +498,7 @@ AppAsset::register($this);
                             </div>
                             <div class="act_item di_skid">
                                 <div class="ni_img">
-                                    <img src="image/novostroika4.jpg" alt="">
+                                    <img src="web/image/novostroika4.jpg" alt="">
                                 </div>
                                 <div class="ni_cont">
                                     <a href="#" class="act_tit">Квартиры в готовых домах со скидкой 20%</a>
@@ -519,14 +519,14 @@ AppAsset::register($this);
                     <div class="info_block pt30 ">
                         <div class="gen_tit">
                             <div class="gt_img">
-                                <img src="image/tit_icon4.png" alt="">
+                                <img src="web/image/tit_icon4.png" alt="">
                             </div>
                             <span>скидки в новостройках краснодара</span>
                         </div>
                         <div class="skidki">
                             <div class="skid_item">
                                 <div class="ni_img">
-                                    <img src="image/novostroika1.jpg" alt="">
+                                    <img src="web/image/novostroika1.jpg" alt="">
                                 </div>
                                 <div class="ni_cont">
                                     <div class="skit_tit">
@@ -542,7 +542,7 @@ AppAsset::register($this);
 
                             <div class="skid_item">
                                 <div class="ni_img">
-                                    <img src="image/novostroika2.jpg" alt="">
+                                    <img src="web/image/novostroika2.jpg" alt="">
                                 </div>
                                 <div class="ni_cont">
                                     <div class="skit_tit">
@@ -558,7 +558,7 @@ AppAsset::register($this);
 
                             <div class="skid_item">
                                 <div class="ni_img">
-                                    <img src="image/novostroika3.jpg" alt="">
+                                    <img src="web/image/novostroika3.jpg" alt="">
                                 </div>
                                 <div class="ni_cont">
                                     <div class="skit_tit">
@@ -579,7 +579,7 @@ AppAsset::register($this);
                             <div class="gen_tit gt2">
 
                                 <div class="gt_img">
-                                    <img src="image/tit_icon5.png" alt="">
+                                    <img src="web/image/tit_icon5.png" alt="">
                                 </div>
                                 <span>застройщики краснодара</span>
 
@@ -588,21 +588,21 @@ AppAsset::register($this);
                             <div class="zast_wr">
                                 <div class="zast_sl">
                                     <div class="zs_item">
-                                        <div class="zsi_img"><img src="image/zsk_img1.png" alt=""></div>
+                                        <div class="zsi_img"><img src="web/image/zsk_img1.png" alt=""></div>
                                         <a href="#" class="zsi_tit">Застройщик “Юдис”</a>
                                     </div>
 
                                     <div class="zs_item">
-                                        <div class="zsi_img"><img src="image/zsk_img2.png" alt=""></div>
+                                        <div class="zsi_img"><img src="web/image/zsk_img2.png" alt=""></div>
                                         <a href="#" class="zsi_tit">Застройщик “MG Group”</a>
                                     </div>
 
                                     <div class="zs_item">
-                                        <div class="zsi_img"><img src="image/zsk_img3.png" alt=""></div>
+                                        <div class="zsi_img"><img src="web/image/zsk_img3.png" alt=""></div>
                                         <a href="#" class="zsi_tit">Застройщик “Юдис”</a>
                                     </div>
                                     <div class="zs_item">
-                                        <div class="zsi_img"><img src="image/zsk_img3.png" alt=""></div>
+                                        <div class="zsi_img"><img src="web/image/zsk_img3.png" alt=""></div>
                                         <a href="#" class="zsi_tit">Застройщик “Юдис”</a>
                                     </div>
                                 </div>
@@ -613,14 +613,14 @@ AppAsset::register($this);
 
                         <div class="gen_tit">
                             <div class="gt_img">
-                                <img src="image/tit_icon6.png" alt="">
+                                <img src="web/image/tit_icon6.png" alt="">
                             </div>
                             <span>новые предложения</span>
                         </div>
                         <div class="novostroiki">
                             <div class="nov_item">
                                 <div class="ni_img">
-                                    <img src="image/novostroika1.jpg" alt="">
+                                    <img src="web/image/novostroika1.jpg" alt="">
                                     <div class="ni_btns">
                                         <a href="#" class="ni_fot"><span>22</span></a>
                                         <a href="#" class="ni_vid"><span>33</span></a>
@@ -649,7 +649,7 @@ AppAsset::register($this);
 
                             <div class="nov_item di_akc">
                                 <div class="ni_img">
-                                    <img src="image/novostroika3.jpg" alt="">
+                                    <img src="web/image/novostroika3.jpg" alt="">
                                     <div class="ni_btns">
                                         <a href="#" class="ni_fot"><span>22</span></a>
                                         <a href="#" class="ni_vid"><span>33</span></a>
@@ -677,7 +677,7 @@ AppAsset::register($this);
                             </div>
                             <div class="nov_item">
                                 <div class="ni_img">
-                                    <img src="image/novostroika4.jpg" alt="">
+                                    <img src="web/image/novostroika4.jpg" alt="">
                                     <div class="ni_btns">
                                         <a href="#" class="ni_fot"><span>22</span></a>
                                         <a href="#" class="ni_vid"><span>33</span></a>
@@ -713,14 +713,14 @@ AppAsset::register($this);
                         <div class="ib_col">
                             <div class="gen_tit">
                                 <div class="gt_img">
-                                    <img src="image/tit_icon8.png" alt="">
+                                    <img src="web/image/tit_icon8.png" alt="">
                                 </div>
                                 <span>новости рынка недвижимости</span>
                             </div>
                             <div class="stat_items">
                                 <div class="stit_big">
                                     <div class="stb_img">
-                                        <img src="image/stit_big.png" alt="" align="left">
+                                        <img src="web/image/stit_big.png" alt="" align="left">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -733,7 +733,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_sm">
                                     <div class="stm_img">
-                                        <img src="image/stm_img.png" alt="">
+                                        <img src="web/image/stm_img.png" alt="">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -743,7 +743,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_sm">
                                     <div class="stm_img">
-                                        <img src="image/stm_img.png" alt="">
+                                        <img src="web/image/stm_img.png" alt="">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -753,7 +753,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_sm">
                                     <div class="stm_img">
-                                        <img src="image/stm_img.png" alt="">
+                                        <img src="web/image/stm_img.png" alt="">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -763,7 +763,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_sm">
                                     <div class="stm_img">
-                                        <img src="image/stm_img.png" alt="">
+                                        <img src="web/image/stm_img.png" alt="">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -778,14 +778,14 @@ AppAsset::register($this);
 
                             <div class="gen_tit">
                                 <div class="gt_img">
-                                    <img src="image/tit_icon9.png" alt="">
+                                    <img src="web/image/tit_icon9.png" alt="">
                                 </div>
                                 <span>полезные статьи</span>
                             </div>
                             <div class="stat_items">
                                 <div class="stit_big">
                                     <div class="stb_img">
-                                        <img src="image/stit_big.png" alt="" align="left">
+                                        <img src="web/image/stit_big.png" alt="" align="left">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -798,7 +798,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_sm">
                                     <div class="stm_img">
-                                        <img src="image/stm_img.png" alt="">
+                                        <img src="web/image/stm_img.png" alt="">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -808,7 +808,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_sm">
                                     <div class="stm_img">
-                                        <img src="image/stm_img.png" alt="">
+                                        <img src="web/image/stm_img.png" alt="">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -818,7 +818,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_sm">
                                     <div class="stm_img">
-                                        <img src="image/stm_img.png" alt="">
+                                        <img src="web/image/stm_img.png" alt="">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -828,7 +828,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_sm">
                                     <div class="stm_img">
-                                        <img src="image/stm_img.png" alt="">
+                                        <img src="web/image/stm_img.png" alt="">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -845,7 +845,7 @@ AppAsset::register($this);
                     <div class="info_block2 pt30 lb">
                         <div class="gen_tit">
                             <div class="gt_img">
-                                <img src="image/tit_icon10.png" alt="">
+                                <img src="web/image/tit_icon10.png" alt="">
                             </div>
                             <span>видеоролики</span>
                         </div>
@@ -853,7 +853,7 @@ AppAsset::register($this);
                             <div class="ib_col stv_items">
                                 <div class="stit_big">
                                     <div class="stb_img">
-                                        <img src="image/stit_big.png" alt="" align="left">
+                                        <img src="web/image/stit_big.png" alt="" align="left">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -867,7 +867,7 @@ AppAsset::register($this);
 
                                 <div class="stit_big">
                                     <div class="stb_img">
-                                        <img src="image/stit_big.png" alt="" align="left">
+                                        <img src="web/image/stit_big.png" alt="" align="left">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -884,7 +884,7 @@ AppAsset::register($this);
                             <div class="ib_col stv_items">
                                 <div class="stit_big">
                                     <div class="stb_img">
-                                        <img src="image/stit_big.png" alt="" align="left">
+                                        <img src="web/image/stit_big.png" alt="" align="left">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -897,7 +897,7 @@ AppAsset::register($this);
                                 </div>
                                 <div class="stit_big ">
                                     <div class="stb_img">
-                                        <img src="image/stit_big.png" alt="" align="left">
+                                        <img src="web/image/stit_big.png" alt="" align="left">
                                     </div>
                                     <div class="stb_tit1">
                                         <span class="stb_date">25.05.2016</span>
@@ -915,23 +915,23 @@ AppAsset::register($this);
                     <div class="info_block pt20">
                         <div class="gen_tit pb20">
                             <div class="gt_img">
-                                <img src="image/tit_icon11.png" alt="">
+                                <img src="web/image/tit_icon11.png" alt="">
                             </div>
                             <span>панорамы</span>
                         </div>
                         <div class="pan_cont">
                             <div class="panorama">
-                                <img src="image/panorama.png" alt="" style="display: block;">
+                                <img src="web/image/panorama.png" alt="" style="display: block;">
                             </div>
                             <div class="pans">
                                 <div class="pans_item">
-                                    <img src="image/pans_item1.png" alt="">
+                                    <img src="web/image/pans_item1.png" alt="">
                                     <a href="#" class="pansi_tit">ЖК “симфония”</a>
                                     <span>г. Краснодар, ул. Московская, 256</span>
                                 </div>
 
                                 <div class="pans_item">
-                                    <img src="image/pans_item1.png" alt="">
+                                    <img src="web/image/pans_item1.png" alt="">
                                     <a href="#" class="pansi_tit">ЖК “симфония”</a>
                                     <span>г. Краснодар, ул. Московская, 256</span>
                                 </div>
@@ -975,7 +975,7 @@ AppAsset::register($this);
                                                                 <li class="rmb3_item">ул. Ставропольская</li>
                                                             </ul>
                                                         </div>
-                                                        <a href="#" class="rmb3_show"><img src="image/plus.png" alt="">Показать все улицы</a>
+                                                        <a href="#" class="rmb3_show"><img src="web/image/plus.png" alt="">Показать все улицы</a>
                                                     </div>
                                                 </div>
                                                 <div class="rmb_it2">
@@ -1054,7 +1054,7 @@ AppAsset::register($this);
                                             </div>
                                         </div>
                                     </div>
-                                    <a href="#" class="rmb3_show rmbn_show"><img src="image/plus.png" alt="">Показать все новости</a>
+                                    <a href="#" class="rmb3_show rmbn_show"><img src="web/image/plus.png" alt="">Показать все новости</a>
                                 </div>
                             </div>
                         </div>
@@ -1068,7 +1068,7 @@ AppAsset::register($this);
                         <div class="sb_tit">спецпредложения</div>
                         <div class="sp_items">
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1079,7 +1079,7 @@ AppAsset::register($this);
                             </div>
 
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1090,7 +1090,7 @@ AppAsset::register($this);
                             </div>
 
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1101,7 +1101,7 @@ AppAsset::register($this);
                             </div>
 
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1112,7 +1112,7 @@ AppAsset::register($this);
                             </div>
 
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1123,7 +1123,7 @@ AppAsset::register($this);
                             </div>
 
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1134,7 +1134,7 @@ AppAsset::register($this);
                             </div>
 
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1145,7 +1145,7 @@ AppAsset::register($this);
                             </div>
 
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1156,7 +1156,7 @@ AppAsset::register($this);
                             </div>
 
                             <div class="sp_item">
-                                <div class="sp_img"><a href="#"><img src="image/sp_img.jpg" alt=""></a></div>
+                                <div class="sp_img"><a href="#"><img src="web/image/sp_img.jpg" alt=""></a></div>
                                 <div class="sp_cont">
                                     <div class="spi_tit">Название новостройки</div>
                                     <div class="sp_info">
@@ -1218,8 +1218,8 @@ AppAsset::register($this);
                     <a href="#" class="f_soc fs_3"></a>
                 </div>
                 <div class="counters">
-                    <img src="image/cont1.png" alt="">
-                    <img src="image/cont2.png" alt="">
+                    <img src="web/image/cont1.png" alt="">
+                    <img src="web/image/cont2.png" alt="">
                 </div>
             </div>
         </div>
