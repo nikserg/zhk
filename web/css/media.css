@@ -1,0 +1,1038 @@
+@media only screen and (max-width : 720px) {
+	.cent	{
+		width: 330px;
+		padding: 0 10px;
+	}
+	.tm_wr:before {
+		display: none;
+	}
+	.tm_wr:after {
+		display: none;
+	}
+
+	.logo {
+		-webkit-background-size: contain;
+		background-size: contain;
+		width: 120px;
+		margin-top: 0;
+		height: 39px;
+	}
+
+	.h_adr {
+		float: right;
+		margin-left: 0;
+		min-height: 21px;
+		margin-top: 8px;
+	}
+
+	.ha_tit a {
+		font-size: 14px;
+	}
+
+	.head {
+		height: 95px;
+		padding-top: 10px;
+	}
+
+	.h_dop {
+		float: right;
+		clear: both;
+		margin-top: 15px;
+	}
+
+	.top_menu {
+		border-radius:0;
+	}
+
+	.menu_btn  {
+		display: block;
+	}
+
+	.tm_info {
+		display: none;
+	}
+
+	.top_menu {
+		height: auto;
+		position: fixed;
+		left: 0;
+		width: 100%;
+		top: 0;
+		z-index: 40;
+		background-color: rgba(33, 155, 156, 0.95);
+		height: 100%;
+	}
+
+	.tm_wr {
+		display: none;
+	}
+
+	.tm_wr.active {
+		display: block;
+	}
+
+	.top_menu ul {
+		width: auto;
+		display: block;
+		float: none;
+		padding-top: 30px;
+	}
+
+	.top_menu ul li {
+		display: block;
+	}
+
+	.top_menu ul li a {
+		padding: 0;
+	}
+
+	.top_menu ul:after {
+		display: none;
+	}
+
+	.close_menu {
+		display: block;
+		cursor: pointer;
+	}
+
+	.wr_top {
+		background: url(../image/mob_bg.jpg) no-repeat;
+		background-position: 50% -30px;
+	}
+
+	.top_filt {
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+
+	.tf_tit {
+		font-size: 24px;
+	}
+
+	.tf_search {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.tf_search input[type="text"] {
+		float: none;
+		width: 300px;
+		border-radius: 4px;
+		border-right: 2px solid rgb(138, 136, 150);
+	}
+
+	.tf_search button {
+		width: 315px;
+		margin-left: 0;
+		margin-top: 5px;
+		border-radius: 4px;
+		text-align: center;
+	}
+
+	.tf_search button img {
+		margin-left: 0;
+	}
+
+	.tf_clear {
+		margin-left: 0;
+	}
+
+	.tf_cont {
+		padding-left: 0;
+	}
+
+	.tfr_tit {
+		line-height: normal;
+		display: block;
+		padding-bottom: 5px;
+		padding-top: 10px;
+	}
+
+	.kol_kom {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.fil_pr {
+		margin-left: 0;
+	}
+
+	.fl_ot, .fl_do {
+		width: 65px!important;
+		margin-left: 10px;
+	}
+
+	.kk_it {
+		padding: 0 24px;
+	}
+
+	.tf_row {
+		padding-top: 5px;
+	}
+
+	.sr_sd .kk_it {
+		padding: 0 15.3px;
+	}
+
+	.fl_select {
+		display: block;
+		margin-bottom: 5px;
+		margin-right: 0;
+		width: 323px;
+	}
+
+	.fl_ipot {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+
+	.fl_vipot {
+		margin-right: 15px;
+	}
+
+	.checkbox:not(checked) + label:before {
+		top: 12px;
+	}
+
+	.hs_wr .wr_chek .checkbox:not(checked) + label:before {
+		top: 14px;
+	}
+
+	.action_bar {
+		padding-left: 0;
+		text-align: center;
+		height: auto;
+		line-height: normal;
+		padding: 5px 5px;
+		font-size: 14px;
+	}
+
+	.tf_clear {
+		line-height: normal;
+		margin-top: 15px;
+	}
+
+	.content {
+		padding-top: 10px;
+	}
+
+	.page_content {
+		width: auto;
+		display: block;
+	}
+
+	.cent_cont {
+		display: block;
+		width: auto;
+		padding-right: 0;
+	}
+
+	.gen_tit span {
+		font-size: 18px;
+		padding-left: 5px;
+		height: 40px;
+	}
+
+	.gt_img {
+		width: 40px;
+	}
+
+	.ni_img {
+		float: none;
+		width: 220px;
+		height: 150px;
+		/*margin: 0 auto;*/
+		margin-bottom: 10px;
+	}
+
+	.ni_cont {
+		float: none;
+		width: auto;
+	}
+
+	.nov_item, .act_item, .skid_item {
+		height: auto;
+	}
+
+	.ni_tit {
+		padding-bottom: 10px;
+	}
+
+	.all_items {
+		width: auto;
+		font-size: 14px;
+		overflow: hidden;
+	}
+
+	.all_items span {
+		font-size: 14px;
+	}
+
+	.ab_block {
+		border-top: 2px solid #d9d9d9;
+		border-bottom: 2px solid #d9d9d9;
+		padding: 0 5px;
+		background-color: rgb(247, 247, 247);
+	}
+
+	.ab_block:before, .ab_block:after {
+		display: none;
+	}
+
+	.abb_wr {
+		padding-top: 15px;
+	}
+
+	.abb_cont {
+		padding-top: 10px;
+		column-count: 1;
+	}
+
+	.pt30, .pt35 {
+		padding-top: 15px;
+	}
+
+	.skit_cont {
+		text-align: justify;
+	}
+
+	.gt_all {
+		font-size: 12px;
+		width:110px;
+	}
+
+	.zast_wr {
+		width: auto;
+	}
+
+	.zs_item {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.zsi_img {
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	.ib_col {
+		width: auto;
+		float: none;
+	}
+
+	.ib_col .all_items {
+		width: auto;
+		margin-bottom: 20px;
+	}
+
+	.panorama {
+		width: auto;
+		float: none;
+	}
+
+	.pan_cont {
+		padding-top: 15px;
+	}
+
+	.panorama img {
+		width: 100%;
+	}
+
+	.pans_item img {
+		margin: 0 auto;
+	}
+
+	.pans {
+		float: none;
+		width: auto;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.pans_item span {
+		display: block;
+	}
+
+	.foot_menu ul {
+		display: block;
+		text-align: center;
+	}
+
+	.foot_menu ul li {
+		display: inline-block;
+	}
+
+	.foot_menu ul li a {
+		line-height: 25px;
+		padding: 0 5px;
+	}
+
+	.f_logo {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.foot_menu2 {
+		float: none;
+		width: auto;
+		display: block;
+	}
+
+	.foot_menu2 ul {
+		display: block;
+		width: auto;
+		text-align: center;
+	}
+
+	.foot_menu2 ul li {
+		display: inline-block;
+		padding: 0 5px;
+	}
+
+	.f_copyr {
+		display: block;
+		text-align: center;
+	}
+
+	.f_soc1 {
+		padding-left: 0;
+		padding-bottom: 15px;
+	}
+
+	.f_soc1 span {
+		width: 110px;
+		padding-right: 0;
+	}
+
+	.counters {
+		float: none;
+		text-align: center;
+	}
+
+	.footer {
+		padding-bottom: 55px;
+	}
+
+	.right_cont {
+		width: auto;
+		position: fixed;
+		top: 0;
+		right: -100%;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		width: 100%;
+		height: 100%;
+		overflow-y:scroll;
+		z-index: 49;
+		border:none;
+		background: rgba(236, 236, 236, 0.95);
+	}
+
+	.right_cont.active {
+		right: 0;
+	}
+
+	.r_menu {
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	.rm {
+		display: block;
+		z-index: 50;
+	}
+
+	.like_btn span {
+		display: none !important;
+	}
+
+	.login_modal, .reg_modal {
+		width: 300px;
+		left: 50%;
+		margin-left: -150px;
+		top: 90px;
+	}
+
+	.h_dop {
+		position: inherit;
+	}
+
+	.wm_tit {
+		font-size: 20px;
+	}
+
+	.wm_row input[type="text"] {
+		margin-right: 15px;
+		width: 190px!important;
+	}
+
+	.wm_row textarea {
+		width: 180px!important;
+		margin-right: 15px!important;;
+	}
+
+	.wmr3_col:last-child {
+		margin-right: 15px!important;;
+	}
+
+	.err_modal .wm_row3, .otziv_modal .wm_row3 {
+		width: 308px;
+	}
+
+	.tb_icon {
+		display: none;
+	}
+
+	.full_poisk {
+		margin-bottom: 10px;
+	}
+
+	.krosh {
+		margin-top: 0;
+		height: auto;
+		padding-bottom: 5px;
+		line-height: normal;
+	}
+
+	.wr_top.noactive {
+		max-height:none;
+		margin-bottom: 0;
+	}
+	.krosh a, .krosh span {
+		margin-bottom: 5px;
+		padding: 0 5px;
+	}
+
+	.seo_cont {
+		text-align: justify;
+	}
+
+	.seo_tit {
+		padding-bottom: 20px;
+	}
+
+	.pagi_kol {
+		text-align: center;
+	}
+
+	.pagi_kol select {
+		margin-right: 0;
+		display: block;
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	.pagi_cont {
+		padding: 15px 0;
+	}
+
+	.stb_img {
+		width: 100px;
+		height: 80px;
+	}
+
+	.art_item .stb_img {
+		margin-right: 10px;
+	}
+
+	.arti_cont {
+		width: auto;
+	}
+
+	.arti_cont p {
+		text-align: justify;
+	}
+
+	.rek_bl, .rek_bl2 {
+		padding: 15px 0;
+	}
+
+	.rek_bl img, .rek_bl2 img {
+		display: block;
+		width: 100%;
+	}
+
+	.pr_cont {
+		overflow-x: auto;
+		padding-top: 30px;
+		background: url(../image/tab_l.png) no-repeat;
+		background-position: 100% 0;
+	}
+
+	.pr_info p {
+		text-align: justify;
+	}
+
+	.gt_err a {
+		font-size: 14px;
+	}
+
+	.pr_table a, .pr_table td {
+		font-size: 14px;
+	}
+
+	.gt_err {
+		display: none;
+	}
+
+	.dn_cont p {
+		text-align: justify;
+	}
+
+	.dn_col1 {
+		width: auto;;
+		float: none;
+	}
+
+	.dn_row input {
+		width: 230px;
+	}
+
+	.dn_col22, .dn_col2 {
+		float: none;
+		width: auto;
+	}
+
+	.dn_col22 textarea {
+		float: right;
+		width: 220px;
+	}
+	.dn_dobf {
+		margin-bottom: 5px;
+	}
+
+	.dn_row2 {
+		clear: both;
+		padding-top: 10px;
+	}
+
+	.bank_img {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+	.bankinf_cont {
+		float: none;
+		width: auto;
+	}
+
+	.kb_col1, .kb_col2 {
+		float: none;
+		width: auto;
+	}
+
+	.kb_col2 {
+		margin-top: 10px;
+	}
+
+	.kb_row2 input {
+		width: 240px;
+	}
+
+	.kb_row2 textarea {
+		width: 230px;
+	}
+
+	.kb_row3 {
+		float: left;
+	}
+
+	.karta_novosti .kv_info {
+		float: none;
+		width: auto;
+	}
+
+	.kn_img {
+		margin-right: 10px;
+	}
+
+	.arti_cont {
+		float: none;
+	}
+
+	.video_bl img {
+		width: 100%;
+	}
+
+	.kv_tit {
+		padding: 15px 0;
+	}
+
+	.kv_info p {
+		text-align: justify;
+	}
+
+	.pan_img {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.pan_info {
+		width: auto;
+		float: none;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.pan_opis {
+		text-align: justify;
+	}
+
+	.skid_img {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.skid_cont {
+		float: none;
+		width: auto;
+		padding-top: 15px;
+	}
+
+	.ni_date {
+		margin-left: 0;
+		display: block;
+	}
+
+	.search_bl input[type="text"] {
+		width: 300px;
+		display: block;
+		margin: 0 auto;
+		border-radius: 4px;
+		border-right: 2px solid rgb(138, 136, 150);
+	}
+
+	.search_bl button {
+		display: block;
+		width: 320px;
+		text-align: center;
+		margin: 0 auto;
+		border-radius: 4px;
+		margin-top: 10px;
+	}
+
+	.sb_naid {
+		text-align: center;
+	}
+
+	.bb_img {
+		margin:0 auto;
+		float: none;
+	}
+
+	.bb_cont {
+		float: none;
+		width: auto;
+		padding-top: 15px;
+
+	}
+
+	.bb_text {
+		text-align: justify;
+	}
+
+	.katnov .nov_item:nth-child(2n+2) {
+		padding-left: 10px;
+	}
+
+	.katnov .nov_item:hover {
+		background: #fff;
+	}
+
+	.katnov .ni_img {
+		margin-left: inherit;
+	}
+
+	.lk_form {
+		width: auto;
+	}
+
+	.lk_form .kb_row2 input {
+		width: 150px;
+	}
+
+	.kb_row6 {
+		padding:0 10px;
+	}
+
+	.kb_row6.dn_row2 input[type="submit"] {
+		width: 130px;
+	}
+
+	.obf_cont {
+		padding-bottom: 20px;
+	}
+
+	.obsv {
+		width: auto;
+	}
+
+	.kb_row4 {
+		width: auto;
+		float: none;
+		text-align: right;
+		padding-bottom: 0;
+	}
+
+	.com_cont {
+		width: 226px;
+	}
+
+	.comc_cont {
+		width: 145px;
+	}
+
+	.com_text, .comc_text {
+		text-align: justify;
+	}
+
+	.comm_tab {
+		margin-top: 10px;
+	}
+
+	.prosm_btn span {
+		display: none !important;
+	}
+
+	.rek_table {
+		overflow-x: auto;
+		margin-bottom: 10px;
+		padding-top: 30px;
+		background: url(../image/tab_l.png) no-repeat;
+		background-position: 100% 0;
+	}
+
+	.specpred .sp_item, .specpred .sp_item:nth-child(3n+3) {
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+
+	.jk_bl {
+		display: block;
+	}
+
+	.jk_bl span {
+		display: block;
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.gt_men {
+		display: block;
+		text-align: left;
+		padding-bottom: 5px;
+	}
+
+	.jk_bl .print_icon {
+		display: none;
+	}
+
+	.jk_bl .like_icon {
+		display: none;
+	}
+
+	.dop_info {
+		display: block;
+		height: auto;
+	}
+
+	.di_adr {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.di_map {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.jkm_it{
+		margin-left: 0;
+	}
+
+	.jkm_it.active::before, .jkm_it.active::after {
+		display: none;
+	}
+
+	.jk_menu {
+		text-align: center;
+	}
+
+	.jkt_cont {
+		width: auto;
+	}
+
+	.fotorama__caption__wrap {
+		display: none;
+	}
+
+	.jk_col1 {
+		float: none;
+		width: auto;
+		padding-top: 0;
+	}
+
+	.jk_col2 {
+		float: none;
+		width: auto;
+		padding-top: 15px;
+	}
+
+	.jkc2_cont {
+		padding-top: 10px;
+		padding-left: 0;
+	}
+
+	.jka2, .jka3 {
+		float: none;
+		width: auto;
+		padding-bottom: 10px;
+	}
+
+	.psl {
+		width: auto;
+	}
+
+	.psl_item  {
+		text-align: center;
+	}
+
+	.dpbc1, .dpbc2 {
+		float: none;
+		width: auto;
+
+	}
+
+	.acb_link {
+		float: none;
+	}
+
+	.acb_item img {
+		margin-right: 10px;
+	}
+
+	.ni_mod {
+		left: 0;
+		top: 30px;
+		width: 300px;
+		left: 50%;
+		margin-left: -150px;
+		z-index: 30;
+		padding: 0;
+		padding-bottom: 10px;
+	}
+
+	.ni_mod .ni_img {
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+
+	.ni_mod .ni_cont {
+		width: auto;
+		padding: 0 30px;
+		padding-top: 24px;
+	}
+
+	.ni_mod .ni_tit {
+		padding-right: 0;
+		position: inherit;
+	}
+
+	.ni_mod  .ni_date {
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+
+	.ni_mod .ni_more {
+		margin-top: 25px;
+	}
+
+	.ni_mod .ni_do {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+
+	.ni_mod .ni_row {
+		padding-bottom: 15px;
+	}
+
+	.ni_mod:after {
+		display: none;
+	}
+
+	.ni_mod .ni_tit a {
+		font-size: 18px;
+		padding-right: 0;
+	}
+
+	.ni_mod  .like_btn {
+		top: 10px;
+		right: 10px;
+	}
+
+	.map_modal {
+		width: 320px;
+		height: 530px;
+		left: 0;
+		top: -113px;
+	}
+
+	.dob_otz a.gomod {
+		margin-bottom: 10px;
+		margin-left: 0 !important;
+	}
+
+	.otziv_modal {
+		width: 300px;
+		margin-left: -150px;
+	}
+
+	.plan_sl .slick-prev {
+		left: 0;
+	}
+
+	.rek_cont table th, .pr_table th {
+		padding:5px 10px;
+	}
+
+	.specpred2 .nov_item:after {
+		display: none;
+	}
+
+	.specpred2 .nov_item {
+		background: #ededed;
+		padding:  10px;
+	}
+
+	.katn_fil {
+		vertical-align: top;
+	}
+
+	#scroller {
+		z-index: 40;
+	}
+
+	.top_filt2 .kk_it {
+		padding: 0 22px;
+	}
+
+	.top_filt2 .sr_sd .kk_it {
+		padding: 0 14.5px;
+	}
+
+	.top_filt2 .sr_sd {
+		margin-right: 0;
+	}
+
+	.top_filt2 .fl_ot, .top_filt2 .fl_do {
+		margin-left: 5px;
+	}
+
+	.tf_row2 {
+		text-align: justify;
+	}
+}

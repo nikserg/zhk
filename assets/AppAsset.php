@@ -18,12 +18,18 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'css/fonts.css',
+        'css/slick.css',
+        'css/jquery.custom-scrollbar.css',
+        'css/style.css',
+        'css/media.css',
     ];
     public $js = [
+        "js/slick.min.js",
+        "js/jquery.custom-scrollbar.min.js",
+        "js/user.js",
     ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
     ];
 }
